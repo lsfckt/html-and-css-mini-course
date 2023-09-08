@@ -1,0 +1,38 @@
+body {
+    font-family: "Helvetica", 
+    sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  nav {
+    background: #234465;
+  }
+  
+  nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10 px 20 px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+  }
+
+  footer {
+    background: #234465;
+    color: white;
+    padding: 10px;
+    margin-top: auto;
+  }
